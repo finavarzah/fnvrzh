@@ -1,0 +1,84 @@
+.cardd {
+    border: none;
+    outline: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.buttonn{
+    border-radius: 15px;
+    background-color: whitesmoke;
+    border: none;
+    height: 45px;
+    font-weight: bold;
+}
+
+.buttonn:hover{
+    background-color: goldenrod;
+    color: whitesmoke;
+}
+
+.container2 {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.slider {
+    display: inline-block;
+    padding: 20px;
+}
+
+.slider-inner {
+    display: flex;
+    gap: 20px;
+}
+
+.card-info {
+    width: 500px;
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: beige;
+    text-decoration-color: white;
+}
+
+.btn-floating {
+    position: fixed;
+    right: 25px;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 0;
+    z-index: 9999;
+    color: white;
+    transition: .2s;
+}
+
+.btn-floating span {
+    font-size: 16px;
+    margin-left: 5px;
+    transition: .2s;
+    line-height: 0px;
+    display: none;
+}
+
+.btn-floating:hover span {
+    display: inline-block;
+}
+
+.btn-floating:hover img {
+    margin-bottom: -3px;
+}
+
+.btn-floating.whatsapp {
+    bottom: 25px;
+    background-color: #34af23;
+    border: 2px solid #fff;
+}
+
+.btn-floating.whatsapp:hover {
+    background-color: #1f7a12;
+}
